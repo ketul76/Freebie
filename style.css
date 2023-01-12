@@ -11,6 +11,7 @@ body{
 }
 button:hover{
   background: #000000e0 !important;
+  cursor: pointer;
 }
 a{
   text-decoration: none;
@@ -376,6 +377,227 @@ a{
   }
 /* Vision Css ENd */
 
+/* Solution Css Start */
+  .solution{
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+    align-items: center;
+  }
+  .solution img{
+    height: 550px;
+  }
+  .solution-text h3{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 18.8054px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FD5B2F;
+  }
+  .solution-text h1{
+    font-family: 'Gilroy-Medium';
+    font-size: 52.2371px;
+    line-height: 71px;
+    color: #000000;
+    padding-bottom: 15px;
+  }
+  .solution-text p{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.6711px;
+    line-height: 38px;
+    color: #000000;
+    padding-bottom: 15px;
+  }
+  .solution-text button{
+    padding: 18px 20px;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #FD5B2F;
+    border-radius: 5.22371px;
+    border: none;
+  }
+/* Solution Css End */
+
+/* Choose Css Start */
+  .choose{
+    padding: 100px 0;
+  }
+  .choose h2{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 18.8054px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FD5B2F;
+    text-align: center;
+  }
+  .choose h1{
+    font-family: 'Gilroy-Medium';
+    font-size: 52.2371px;
+    line-height: 71px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 20px;
+  }
+  .features{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+  }
+  .features h3{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 20.8948px;
+    line-height: 24px;
+    color: #000000;
+    padding: 15px 0;
+  }
+  .features p{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.5369px;
+    line-height: 25px;
+    color: #000000;
+  }
+/* Choose Css End */
+
+/* Gallary Css Start */
+  .gallary{
+    padding: 100px 0;
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-gallary-1 img{
+    height: 200px;
+  }
+  .gallary-img img{
+    height: 575px;
+  }
+  .img-gallary-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-bottom: 20px;
+  } 
+  .gallary-text h3{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 18.8054px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FD5B2F;
+  }
+  .gallary h1{
+    font-family: 'Gilroy-Medium';
+    font-size: 48px;
+    line-height: 65px;
+    color: #000000;
+    padding-bottom: 15px;
+  }
+/* Gallary Css End */
+
+/* Member Css Start */
+  .member{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+  }
+  .member img{
+    height: 550px;
+  }
+  .member-text h2{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 18.8054px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FD5B2F;
+  }
+  .member-text h1{
+    font-family: 'Gilroy-Medium';
+    font-size: 52.2371px;
+    line-height: 71px;
+    color: #000000;
+  }
+  .member-text p{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.6711px;
+    line-height: 38px;
+    color: #000000;
+    padding-bottom: 35px;
+  }
+  .member-btns{
+    display: flex;
+    gap: 20px;
+  }
+  .member button{
+    padding: 18px 20px;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    color: #FD5B2F;
+    background: transparent;
+    border-radius: 5.22371px;
+    border-color: #FD5B2F;
+  }
+  .member-btns button:hover{
+    background: #FD5B2F !important;
+    color: #FFFFFF;
+  }
+/* Member Css End */
+
+/* Footer Css Start */
+  footer{
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 105px;
+  }
+  footer h1{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 20.8948px;
+    line-height: 24px;
+    color: #FD5B2F;
+    padding-bottom: 25px;
+  }
+  .footer-info h1{
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29.2528px;
+    line-height: 37px;
+    color: #000000;
+  }
+  .footer-info p{
+    font-family: 'Gilroy-Regular';
+    font-size: 16.7159px;
+    line-height: 31px;
+    color: #000000;
+  }
+  .list h3{
+    font-family: 'Gilroy-Regular';
+    font-weight: 400;
+    font-size: 16.7159px;
+    line-height: 20px;
+    color: #000000;
+    padding-bottom: 10px;
+  }
+/* Footer Css End */
 
 
 
@@ -425,7 +647,7 @@ a{
 /* 992px */
 @media screen and (max-width: 492px) {
   .service{
-    padding: 20px;
+    padding: 75px;
     gap: 50px;
   }
   .service-main{
@@ -433,6 +655,31 @@ a{
   }
   .calender{
     display: none;
+  }
+  .solution img{
+    width: 100%;
+    height: 100%;
+  }
+  .member{
+    padding: 25px;
+  }
+  .member img{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gallary {
+    padding: 20px;
+    gap: 0;
+  }
+  .gallary img{
+    width: 100%;
+    height: 100%;
+  }
+  footer{
+    padding: 25px;
+    gap: 25px;
   }
 }
 
@@ -442,6 +689,7 @@ a{
   .vision{
     position: static;
     flex-direction: column-reverse;
+    align-items: center;
     padding: 25px;
   }
   .vision-imgs{
@@ -455,5 +703,16 @@ a{
   }
   .vision-lists{
     gap: 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .solution{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 25px;
+  }
+  .gallary{
+    flex-direction: column;
   }
 }
